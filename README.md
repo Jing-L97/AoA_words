@@ -16,10 +16,17 @@ python src/scripts/eval/computde.py
 Optional Arguments
 
 --eval_lst: List of evaluation files for analysis
+
 --interval: Checkpoint interval sampling (default: 10)
+
 --min_context: Minimum number of contexts required (default: 20)
+
 --use_bos_only: Use only beginning-of-sequence token for context
+
 --start: Start index of step range (default: 14)
+
 --end: End index of step range (default: 142)
+
 --debug: Process only the first 5 lines for debugging
+
 --resume: Resume from existing checkpoint
